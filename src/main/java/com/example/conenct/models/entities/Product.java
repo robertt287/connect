@@ -4,12 +4,14 @@ import com.example.conenct.models.ProductCategory;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 @Data
 @Entity(name = "customers")
 @Table
-public class Products {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -31,4 +33,6 @@ public class Products {
     private ProductCategory productCategory;
     @Column(name = "product_description")
     private String productDescription;
+    @ManyToMany(mappedBy = "products")
+    private List<Order>orders = new ArrayList<>();
 }
