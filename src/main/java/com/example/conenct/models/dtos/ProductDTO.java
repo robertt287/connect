@@ -1,13 +1,9 @@
 package com.example.conenct.models.dtos;
 
-import com.example.conenct.models.ProductCategory;
+import com.example.conenct.models.entities.ProductCategory;
 import com.example.conenct.models.entities.Customer;
-import com.example.conenct.models.entities.Order;
-import jakarta.persistence.*;
 import lombok.Data;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 @Data

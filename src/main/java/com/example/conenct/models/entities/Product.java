@@ -1,6 +1,5 @@
 package com.example.conenct.models.entities;
 
-import com.example.conenct.models.ProductCategory;
 import jakarta.persistence.*;
 import lombok.Data;
 
