@@ -1,4 +1,4 @@
-package com.example.conenct.models.entities;
+package com.example.connect.models.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -33,5 +33,5 @@ public class Product {
     @Column(name = "product_description")
     private String productDescription;
     @ManyToMany(mappedBy = "products")
-    private List<Order>orders = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
 }

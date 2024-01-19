@@ -1,8 +1,7 @@
-package com.example.conenct.models.dtos;
+package com.example.connect.models.dtos;
 
-import com.example.conenct.models.entities.Customer;
-import com.example.conenct.models.entities.Product;
-import jakarta.persistence.*;
+import com.example.connect.models.entities.Customer;
+import com.example.connect.models.entities.Product;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

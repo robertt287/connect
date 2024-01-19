@@ -1,4 +1,4 @@
-package com.example.conenct.models.entities;
+package com.example.connect.models.entities;
 
 public enum ProductCategory {
     TECHNOLOGY,

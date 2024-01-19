@@ -1,7 +1,7 @@
-package com.example.conenct.controllers;
+package com.example.connect.controllers;
 
-import com.example.conenct.models.dtos.CustomerDTO;
-import com.example.conenct.services.CustomerService;
+import com.example.connect.models.dtos.CustomerDTO;
+import com.example.connect.services.CustomerService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

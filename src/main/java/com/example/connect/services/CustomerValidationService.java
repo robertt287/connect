@@ -1,6 +1,6 @@
-package com.example.conenct.services;
+package com.example.connect.services;
 
-import com.example.conenct.models.dtos.CustomerDTO;
+import com.example.connect.models.dtos.CustomerDTO;
 import org.springframework.stereotype.Service;
 
 @Service

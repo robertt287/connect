@@ -1,7 +1,6 @@
-package com.example.conenct.repositories;
+package com.example.connect.repositories;
 
-import com.example.conenct.models.entities.Customer;
-import com.example.conenct.services.CustomerService;
+import com.example.connect.models.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,9 +1,9 @@
-package com.example.conenct.services;
+package com.example.connect.services;
 
-import com.example.conenct.exceptions.DuplicateCustomerException;
-import com.example.conenct.models.dtos.CustomerDTO;
-import com.example.conenct.models.entities.Customer;
-import com.example.conenct.repositories.CustomerRepository;
+import com.example.connect.exceptions.DuplicateCustomerException;
+import com.example.connect.models.dtos.CustomerDTO;
+import com.example.connect.models.entities.Customer;
+import com.example.connect.repositories.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 @Service

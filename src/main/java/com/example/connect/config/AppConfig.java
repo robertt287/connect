@@ -1,4 +1,4 @@
-package com.example.conenct.config;
+package com.example.connect.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

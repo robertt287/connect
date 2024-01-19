@@ -1,4 +1,4 @@
-package com.example.conenct.models.entities;
+package com.example.connect.models.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -21,10 +21,10 @@ public class Order {
     @JoinColumn(name = "customer_id")
     private Customer customer;
     @ManyToMany
-    @JoinTable (
-    name = "orders_products,",
+    @JoinTable(
+            name = "orders_products,",
             joinColumns = @JoinColumn(name = "order_id"),
-            inverseJoinColumns = @JoinColumn(name="products_id")
+            inverseJoinColumns = @JoinColumn(name = "products_id")
     )
-    private List<Product>products = new ArrayList<>();
+    private List<Product> products = new ArrayList<>();
 }
