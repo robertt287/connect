@@ -28,6 +28,7 @@ class CustomerServiceImpTest {
     @InjectMocks
     private CustomerServiceImpl customerService;
 
+
     @Test
     void createCustomerTestShouldPass() {
         //GIVEN
